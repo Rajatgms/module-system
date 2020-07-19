@@ -1,9 +1,4 @@
-NodeJS support CommonJS module system but browser does not.
+Browser ES2015 Module system support for run-time module system
 
-### NodeJS
-1. Go to terminal and run `node src/js/main.js`
-2. All calculations will be displays.
-### Browser
-1. Open index.html and check console.
-2. ReferenceError: require is not defined since browser does not support
-   commonjs module system.
+Open index.html and check browser console.
+- Console will display all calculations.

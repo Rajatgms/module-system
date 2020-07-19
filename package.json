@@ -1,0 +1,15 @@
+{
+  "name": "Bundlers",
+  "version": "1.0.0",
+  "description": "NodeJS support CommonJS module system but browser does not.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server src/ -p 9000 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

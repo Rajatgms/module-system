@@ -1,12 +1,11 @@
-const add = require('./add')
-const subtract = require('./subtract')
-const multiply = require('./multiply')
-const divide = require('./divide')
+import add from './add.js'
+import subtract from './subtract.js'
+import multiply from './multiply.js'
+import divide from './divide.js'
 
-module.exports = {
+export default {
   add,
   subtract,
   multiply,
   divide
 }
-

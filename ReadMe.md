@@ -1,9 +1,6 @@
-NodeJS support CommonJS module system but browser does not.
+Script tags for each js file
 
-### NodeJS
-1. Go to terminal and run `node src/js/main.js`
-2. All calculations will be displays.
 ### Browser
-1. Open index.html and check console.
-2. ReferenceError: require is not defined since browser does not support
-   commonjs module system.
+1. Open index.html in browser
+2. Open browser devtool console
+3. All calculation will be visible

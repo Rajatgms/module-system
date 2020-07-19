@@ -1,3 +1,5 @@
-module.exports = function add (a, b) {
-  return a + b
-}
+define('add', function () {
+  return function add(a,b) {
+    return a+b;
+  }
+});

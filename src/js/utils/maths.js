@@ -1,12 +1,12 @@
-const add = require('./add')
-const subtract = require('./subtract')
-const multiply = require('./multiply')
-const divide = require('./divide')
+require.config({
+	baseUrl: 'js/utils/'
+});
 
-module.exports = {
-  add,
-  subtract,
-  multiply,
-  divide
-}
-
+define(['add', 'subtract', 'multiply', 'divide'], function (add, subtract, multiply, divide) {
+	return {
+		add,
+		subtract,
+		multiply,
+		divide
+	}
+});
